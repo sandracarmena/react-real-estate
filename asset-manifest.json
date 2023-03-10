@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-real-estate/static/css/main.6052b829.css",
+    "main.js": "/react-real-estate/static/js/main.c2d8f222.js",
+    "static/js/787.b8aa4127.chunk.js": "/react-real-estate/static/js/787.b8aa4127.chunk.js",
+    "index.html": "/react-real-estate/index.html",
+    "main.6052b829.css.map": "/react-real-estate/static/css/main.6052b829.css.map",
+    "main.c2d8f222.js.map": "/react-real-estate/static/js/main.c2d8f222.js.map",
+    "787.b8aa4127.chunk.js.map": "/react-real-estate/static/js/787.b8aa4127.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6052b829.css",
+    "static/js/main.c2d8f222.js"
+  ]
+}
