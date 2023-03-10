@@ -1,0 +1,117 @@
+.promo{
+  margin: 4rem 3rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.promo h1{
+  font-size: 3rem;
+}
+
+.promo-boxes{
+margin-top: 30px;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+
+}
+.promo-single{
+display: flex;
+flex-direction: column;
+position: relative;
+width: 30%;
+box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
+background-color: rgba(123, 123, 123, 0.123);
+backdrop-filter: blur(10px);  
+border-radius: 8px;
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+
+.img-hotel {
+  height: 230px;
+}
+
+img{
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.promo-des{
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+
+  padding: 20px;
+  
+  
+}
+.btn-promo{
+  margin-top: 10px;
+}
+.promo-price {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgb(0, 6, 15);
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  font-weight: bold;
+  z-index: 999;
+  width: 100px;
+}
+
+.btn-promo{
+  padding: 0.8rem 1.1rem;
+  white-space: nowrap;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(41, 174, 186);
+  color: white;
+  margin-top: 18px;
+  width: 50%;
+}
+
+.promo-single:hover .btn-promo{
+ 
+  background-color: rgb(41, 174, 186);
+  
+}
+.each-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 0px;
+
+}
+
+.each-slide .promo-single {
+  margin: 20px;
+  max-width: calc((100% / 3) - 40px);
+  flex-basis: calc((100% / 3) - 40px);
+}
+@media screen and (max-width: 690px){
+  .promo-single{
+    width: 80%;
+  }
+
+
+}
+@media screen and (min-width: 690px) and (max-width: 1060px){
+  .promo-single{
+    width: 48%;
+  }
+ 
+
+.promo-boxes{
+  justify-content: space-between;
+}
+
+
+
+}

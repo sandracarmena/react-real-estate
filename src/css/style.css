@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Poppins', sans-serif;;
+ 
+}
+.App{
+  text-align: center;
+}
+body{
+  background-image: linear-gradient(to right top, #00060f, #050c14, #0a1019, #0e141d, #111721);
+}
+h1,h2,h3,h4,p{
+  color: rgb(226, 227, 215);
+  margin-top: 10px;
+}

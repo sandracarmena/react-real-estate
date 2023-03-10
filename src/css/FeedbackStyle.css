@@ -1,0 +1,90 @@
+.feedback{
+  margin: 4rem 3rem;
+}
+.feedback h1{
+  font-size: 3rem;
+}
+
+.feedback p{
+  font-size: 20px;
+}
+.feedback-text p{
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.feedback-boxes{
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  row-gap: 20px;
+  align-items: center;
+  
+
+}
+.feedback-des{
+  display: flex;
+  flex-direction: row;
+  height: 65%;
+  margin-top: 20px;
+  
+  
+}
+.single-box{
+  width: 32%;
+  height: fit-content;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px 0 rgb(0 0 0 / 50%);
+  background-color: rgba(48, 48, 48, 0.391);
+  backdrop-filter: blur(20px);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px; /* Add extra padding to the top */
+  
+  
+}
+.single-box .feedback-image{
+  margin-right: 10px;
+
+
+}
+.feedback-image img{
+ width: 80px;
+ height: 80px;
+ border-radius: 100%;
+}
+.feedback-text{
+  text-align: start;
+  width: 100%;
+  height: 100%;
+}
+.feedback-title{
+  width: 100%;
+  height: fit-content;
+  text-align: start;
+  margin-left: 20px;
+
+}
+.feedback-text i{
+  color: rgb(206, 175, 0);
+  margin-top: 10px;
+  margin-right: 5px;
+  
+}
+@media screen and (max-width: 920px){
+  .single-box{
+    width: 46%;
+  }
+  .feedback h4{
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 690px){
+  .single-box{
+    width: 80%;
+  }
+}
